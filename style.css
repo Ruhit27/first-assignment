@@ -11,7 +11,7 @@
 
 .button{
     
-  color: rgb(27, 7, 7);
+  color: rgb(243, 240, 240);
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
@@ -21,8 +21,9 @@
   transition-duration: 0.4s;
   cursor: pointer;
   font-size: 20px;
-  border-radius: 4px solid #2df4b2;
+  border-radius:4px 4px;
   background-image: linear-gradient(red,tomato);
+  margin-top: 30px;
 
 
 }
@@ -45,30 +46,36 @@ body{
 }
 .money{
     display: flex;
+    text-align: right;
     
     
 }
    
 #min{
     box-shadow: 10px 10px 50px rgb(242, 210, 210);
-    border-radius: 2px solid;
-    margin-left: 30px;
+    border-radius: 1px solid;
+    margin-left: 100px;
     width: 150px;
     text-align: center;
     color: gray;
     height: 100px;
+
 }
 #exc{
-    box-shadow: 10px 10px 50px rgb(226, 11, 51);
+    box-shadow: 10px 10px 50px rgb(240, 232, 234);
     border-radius: 2px solid;
-    margin-left: 30px;
+    margin-left: 100px;
     width: 150px;
+    text-align: center;
     
     color: rgb(223, 26, 26);
     height: 100px;
 
 }
 .midd{
+    text-align: center;
+}
+#align{
     text-align: center;
 }
    
