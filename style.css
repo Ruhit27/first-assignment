@@ -2,28 +2,27 @@
     background-image: url(images/donation13.jpg);
     height: 620px;
     background-size: 100% 100%;
-    
-    text-align: center;
-    
     background-repeat: no-repeat;
-   
+    text-align:center;
+   margin: auto;
+   padding: 20px;
 
 }
 
 .button{
-    border: none;
-  color: white;
+    
+  color: rgb(27, 7, 7);
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  
   transition-duration: 0.4s;
   cursor: pointer;
-  font-size: 30px;
-  border: 2px solid #b9d7ba;
-  
+  font-size: 20px;
+  border-radius: 4px solid #2df4b2;
+  background-image: linear-gradient(red,tomato);
 
 
 }
@@ -40,8 +39,37 @@ cursive;}
     color: aliceblue;
     font-size: 20px;
 }
-
-
+body{
+    background-color: white;
+    
+}
+.money{
+    display: flex;
+    
+    
+}
    
+#min{
+    box-shadow: 10px 10px 50px rgb(242, 210, 210);
+    border-radius: 2px solid;
+    margin-left: 30px;
+    width: 150px;
+    text-align: center;
+    color: gray;
+    height: 100px;
+}
+#exc{
+    box-shadow: 10px 10px 50px rgb(226, 11, 51);
+    border-radius: 2px solid;
+    margin-left: 30px;
+    width: 150px;
+    
+    color: rgb(223, 26, 26);
+    height: 100px;
+
+}
+.midd{
+    text-align: center;
+}
    
 
