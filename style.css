@@ -49,15 +49,16 @@ body{
     text-align: right;
     
     
+    
 }
    
 #min{
-    box-shadow: 10px 10px 50px rgb(242, 210, 210);
+    box-shadow: 10px 10px 50px rgb(238, 231, 231);
     border-radius: 1px solid;
     margin-left: 100px;
     width: 150px;
     text-align: center;
-    color: gray;
+    color: rgb(21, 10, 10);
     height: 100px;
 
 }
@@ -78,5 +79,55 @@ body{
 #align{
     text-align: center;
 }
-   
-
+.def{
+    text-align: center;
+    color: blueviolet;
+}
+.blood{
+    width: 33.33%;
+    margin-left: 3%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 60px rgb(207, 161, 151);
+    padding-left: 40px;
+    border-radius: 10px;
+    height: 80%;
+    background-color: rgb(202, 196, 178);
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.clothes{
+    width: 33.33%;
+    margin-left: 3%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 60px rgb(111, 204, 212);
+    padding-left: 40px;
+    border-radius: 10px;
+    height: 80%;
+    background-color: rgb(208, 213, 215);
+    text-align: center;
+    background-color: bisque;
+    margin-top: 50px;
+}
+.clothes img{
+    width: 150px;
+}
+.foods{
+    width: 33.33%;
+    margin-left: 3%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 60px rgb(236, 43, 78);
+    padding-left: 40px;
+    border-radius: 10px;
+    height: 80%;
+    background-color: rgb(208, 213, 215);
+    text-align: center;
+    background-color: cornsilk;
+    margin-top: 50px;
+}
+.foods img{
+    width: 150px;
+}
+.endgame{
+    display: flex;
+}
