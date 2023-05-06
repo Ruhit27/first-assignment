@@ -47,6 +47,7 @@ body{
 .money{
     display: flex;
     text-align: right;
+    margin-left: 10%;
     
     
     
@@ -55,23 +56,25 @@ body{
 #min{
     box-shadow: 10px 10px 50px rgb(238, 231, 231);
     border-radius: 1px solid;
-    margin-left: 100px;
+    margin-left:5%;
     width: 150px;
     text-align: center;
     color: rgb(21, 10, 10);
     height: 100px;
+    margin-right: 5%;
+    
 
 }
-#exc{
-    box-shadow: 10px 10px 50px rgb(240, 232, 234);
-    border-radius: 2px solid;
-    margin-left: 100px;
+.exc{
+    background-color: rgb(183, 199, 133);
+    box-shadow: 10px 10px 50px rgb(238, 231, 231);
+    border-radius: 1px solid;
+    margin-left:5%;
     width: 150px;
     text-align: center;
-    
-    color: rgb(223, 26, 26);
+    color:whitesmoke;
     height: 100px;
-
+    margin-right: 5%;
 }
 .midd{
     text-align: center;
@@ -116,7 +119,7 @@ body{
     width: 33.33%;
     margin-left: 3%;
     margin-right: 5%;
-    box-shadow: 10px 10px 60px rgb(236, 43, 78);
+    box-shadow: 10px 10px 60px rgb(163, 59, 156);
     padding-left: 40px;
     border-radius: 10px;
     height: 80%;
