@@ -134,3 +134,31 @@ body{
 .endgame{
     display: flex;
 }
+
+.mail{
+    width: 55%;
+    margin-left: 3%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 60px rgb(163, 59, 156);
+    padding-left: 80px;
+    border-radius: 10px;
+    height: 80%;
+    background-color: rgb(208, 213, 215);
+    text-align: center;
+    background-color: cornsilk;
+    margin-top: 50px;
+    
+    
+}
+.khatam{
+    text-align: center;
+}
+.foot{
+    background-color: black;
+    color: rgb(199, 50, 75);
+    height: 50%;
+    text-align: center;
+    padding: 3px;
+    margin-top: 25px;
+
+}
